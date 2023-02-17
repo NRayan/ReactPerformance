@@ -1,0 +1,1 @@
+export { SimpleLabel } from "./SimpleLabel";
