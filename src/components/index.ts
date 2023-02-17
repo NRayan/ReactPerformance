@@ -1,1 +1,1 @@
-export { SimpleLabel } from "./SimpleLabel";
+export { SimpleMemoidLabel } from "./SimpleLabel";

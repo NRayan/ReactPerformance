@@ -13,4 +13,4 @@ function SimpleLabelComponent({ value }: props) {
     )
 }
 
-export const SimpleLabel = memo(SimpleLabelComponent)
+export const SimpleMemoidLabel = memo(SimpleLabelComponent)

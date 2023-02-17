@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { SimpleLabel } from "../components";
+import { SimpleMemoidLabel } from "../components";
 
 const array = [...Array(1000).keys()];
 
@@ -20,7 +20,7 @@ export function HookMemo() {
             <ul>
                 {
                     array.map((item) =>
-                        <SimpleLabel value={item.toString()} />
+                        <SimpleMemoidLabel value={item.toString()} />
                     )
                 }
             </ul>
